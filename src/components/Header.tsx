@@ -1,12 +1,11 @@
 import styles from './Header.module.css'
-
-import igniteLogo from '../assets/ignite-logo.svg'
+import PiCodeLogo from '../assets/picode-logo.svg'
 
 export function Header() {
     return (
         <header className={styles.header}>
-        <img src={igniteLogo} alt="Logotipo do Ignite" />
-        <h1>Ignite Feed</h1>
+        <img src={PiCodeLogo} alt="Logotipo da PiCode" />
+        <h1>PiCommunity</h1>
         </header>
     );
 }
